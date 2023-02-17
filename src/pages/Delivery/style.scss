@@ -1,0 +1,14 @@
+.pages_delivery {
+
+    th.ant-table-cell {
+        font-weight: bold !important;
+    }
+    
+    .ant-table-cell :nth-child(2) > p {
+        color: #f26522 !important;
+    }
+    
+    .ant-table table {
+        color: #00467f;
+    }
+}

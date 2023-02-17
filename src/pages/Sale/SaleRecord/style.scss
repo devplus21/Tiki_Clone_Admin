@@ -1,0 +1,29 @@
+.sale__record {
+  border-bottom: 1px solid rgb(237, 235, 235);
+  padding: 6px 4px;
+  &:hover {
+    background: rgba(22, 24, 35, 0.05);
+  }
+  img {
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+  .title__record-info__section {
+    .info-value {
+      .ant-switch-checked {
+        background: rgb(34, 197, 139);
+      }
+      &.title {
+        font-weight: 500;
+      }
+      &.price {
+        color: var(--my-red);
+      }
+    }
+  }
+  img.thumbnail {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+  }
+}

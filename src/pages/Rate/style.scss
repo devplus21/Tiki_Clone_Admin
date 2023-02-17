@@ -1,0 +1,56 @@
+#rates__page {
+  .price__range-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    span.price__range-number {
+      font-size: 12px;
+    }
+  }
+  .rates__page-body {
+    width: 100%;
+    .rate__actions {
+      padding: 8px 12px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+    }
+    .pagination__container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 24px;
+    }
+    .body-wrapper {
+      .rate-records__list {
+        .value__record {
+          .title__record-action__section {
+            .actions-value {
+              cursor: pointer;
+              display: block;
+              padding: 8px 0;
+            }
+          }
+          .title__record-info__section {
+            .info-value {
+              padding: 8px 0;
+            }
+          }
+        }
+        .rate-record__wrapper.title__record {
+          padding: 12px 0px;
+          background: rgba(22, 24, 35, 0.05);
+          margin-bottom: 8px;
+          .info__key,
+          .action__key {
+            font-weight: 600;
+          }
+        }
+        .ant-row {
+          align-items: center;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

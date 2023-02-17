@@ -1,0 +1,19 @@
+.staff__record {
+  padding: 6px 4px;
+  &:hover {
+    background: rgba(22, 24, 35, 0.05);
+  }
+  .title__record-info__section {
+    .info-value {
+      .ant-switch-checked {
+        background: rgb(34, 197, 139);
+      }
+      &.title {
+        font-weight: 500;
+      }
+      &.price {
+        color: var(--my-red);
+      }
+    }
+  }
+}

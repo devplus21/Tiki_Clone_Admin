@@ -1,0 +1,101 @@
+.configs__page {
+  padding: 24px 32px;
+  .banner__upload__list {
+    display: flex;
+  }
+  .product__form-body {
+    .body-heading {
+      font-size: 24px;
+      margin: 0 0 20px;
+    }
+    .form__item-title,
+    .ant-form-item-label {
+      padding-bottom: 8px;
+      font-weight: 500;
+    }
+    .body-form {
+      .form__item__input {
+        padding: 8px 16px;
+        width: 100%;
+        display: block;
+        border: 1px solid #b5bfc9;
+        font-size: 16px;
+        transition: all 0.2s ease;
+        &::-webkit-input-placeholder {
+          color: #8d97a9;
+          font-size: 14px;
+        }
+        &:focus {
+          border-color: #08aeea;
+          box-shadow: 0 0 0 1px #08aeea;
+        }
+      }
+      .ant-form-item {
+        .ant-form-item-control {
+          .ant-form-item-control-input {
+            .ant-form-item-control-input-content {
+              .ant-form-item-price,
+              .ant-form-item-sales {
+                margin: 0;
+              }
+            }
+          }
+          .ant-form-item-explain {
+            .ant-form-item-explain-error {
+              padding: 8px 0;
+            }
+          }
+        }
+      }
+      .form__item {
+        margin-bottom: 24px;
+      }
+      .ant-switch-checked {
+        background: #22c58b;
+      }
+      .brand-content {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        .brand-thumb {
+          img {
+            width: 44px;
+            height: 44px;
+            object-fit: cover;
+            border-radius: 50%;
+          }
+        }
+        .brand-name {
+          font-size: 16px;
+          margin: 0 12px;
+          font-weight: 500;
+          font-weight: bold;
+          margin-right: 32px;
+        }
+      }
+      .rating {
+        .rating-content {
+          display: flex;
+          align-items: center;
+          .rating-point {
+            font-size: 32px;
+            line-height: 40px;
+            font-weight: 700;
+            white-space: nowrap;
+            margin: 0px 16px 0px 0px;
+          }
+          .rating-overview {
+            .rating-stars {
+              display: flex;
+              align-items: center;
+            }
+            .rating-review {
+              font-size: 13px;
+              color: rgb(128, 128, 137);
+            }
+          }
+        }
+      }
+    }
+  }
+}

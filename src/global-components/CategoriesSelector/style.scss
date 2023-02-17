@@ -1,0 +1,24 @@
+#tags {
+  .ant-tag {
+    padding: 10px 16px;
+    border-radius: 4px;
+    background: rgba(5, 158, 247, 0.1);
+    border: 0;
+    color: var(--primary);
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 10px;
+    span {
+      font-size: 14px;
+    }
+    .anticon {
+      color: var(--primary);
+    }
+  }
+  .ant-btn {
+    padding: 17px 16px;
+    display: inline-flex;
+    align-items: center;
+    transform: translateY(1px);
+  }
+}

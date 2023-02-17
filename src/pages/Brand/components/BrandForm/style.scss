@@ -1,0 +1,18 @@
+.brand__form {
+  .upload__thumbnail {
+    .ant-upload-list {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .brand__form-btn {
+    .ant-form-item-control-input-content {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      .ant-btn-default {
+        margin-right: 12px;
+      }
+    }
+  }
+}

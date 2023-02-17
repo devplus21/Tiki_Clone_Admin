@@ -1,0 +1,47 @@
+.bill-item {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  &__status {
+    background: rgb(243, 243, 243);
+    color: rgb(89, 153, 212);
+    padding: 12px 8px;
+    color: var(--my-gray);
+    font-weight: 600;
+    &.PENDING {
+      color: rgb(199, 189, 55);
+    }
+    &.DONE {
+      color: rgb(92, 207, 92);
+    }
+  }
+  &__footer {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 4px;
+    .timestamp {
+      margin: 8px 0px;
+      font-style: italic;
+      opacity: .7;
+      display: block;
+      font-size: 13px;
+    }
+    .footer__total-price {
+      margin-bottom: 8px;
+      .total-price {
+        color: var(--text-color);
+        font-weight: 600;
+        font-size: 16px;
+        color: rgb(91, 169, 243);
+      }
+    }
+    button + button {
+      margin: 0 8px;
+    }
+  }
+	.actions {
+		display: flex;
+		justify-content: flex-end;
+	}
+}

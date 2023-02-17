@@ -1,0 +1,52 @@
+.section-send_order, .pages_create_order {
+    .create-form-right {
+        background: #fff;
+        height: 100vh;
+        width: 250px;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        // box-shadow: 0 4px 10px rgb(0 0 0 / 20%);
+        padding: 70px 12px 12px;
+        z-index: 100;
+    }
+    
+    .ant-input, .ant-form-item, .ant-input-number, .ant-input-affix-wrapper {
+        width: 100%;
+        border-radius: 26px;
+      }
+    
+    .ant-select-selector {
+        width: 100%;
+        border-radius: 26px !important;
+    }
+    .ant-form-item-control-input-content {
+        max-width: none !important;
+        // width: 100% !important;
+    }
+    
+    th.ant-table-cell {
+        font-weight: bold !important;
+    }
+    
+    .ant-table-cell :nth-child(2) > p {
+        color: #f26522 !important;
+    }
+    
+    .ant-table table {
+        color: #00467f;
+    }
+    
+    .ant-form-item-label label {
+        font-weight: bold;
+    }
+    
+    .ant-form-item-control-input-content textarea {
+        padding: 12px;
+    }
+    
+    .ant-input-affix-wrapper > input.ant-input {
+        padding-left: 4px;
+    }
+}
+
